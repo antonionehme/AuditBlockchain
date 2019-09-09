@@ -84,7 +84,7 @@ public class Web3JClientAPI2 {
 
     }
     public void runAPI() {
-        /*accounts password for ethClient
+        /*accounts password forini ethClient
          * [0] password:123, [1] password:123456, [2] password: password@1; [3] password: password@2
          * new others are '123'*/
         web3 = Web3j.build(new HttpService("http://127.0.0.1:8547/"));
