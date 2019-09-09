@@ -68,7 +68,7 @@ public class Orchestrator {
 	    }*/
 	 
 	 
-	 public static void SendRequests(String From, String p, String f) throws Exception {//Port and First
+	 public static void SendRequests(String From, String p, String f) throws Exception {//Port and First (Test git)
 		 RestTemplate restTemplate = new RestTemplate();
 
      	 HttpHeaders headers = new HttpHeaders();
